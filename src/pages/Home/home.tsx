@@ -18,7 +18,7 @@ const Home = () => {
   })
 
   useEffect(() => {
-    fetch('./src/data/profile.json')
+    fetch('./data/profile.json')
       .then((res) => res.json())
       .then((data) => setProfile(data))
   }, [])

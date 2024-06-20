@@ -17,7 +17,7 @@ const Footer = () => {
   })
 
   useEffect(() => {
-    fetch('./src/data/contact.json')
+    fetch('./data/contact.json')
       .then((res) => res.json())
       .then((data) => setSocialData(data))
   }, [])
