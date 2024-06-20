@@ -12,7 +12,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${(props) => props.theme.primaryColor}
+    background-color: ${(props) => props.theme.primaryColor};
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
   }
 
   .container {

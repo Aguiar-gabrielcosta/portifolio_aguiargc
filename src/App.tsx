@@ -4,6 +4,7 @@ import GlobalStyle from './styles'
 import Router from './routes'
 import { BrowserRouter } from 'react-router-dom'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
         <Header />
-        <Router />
+        <main>
+          <Router />
+        </main>
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   )
