@@ -34,15 +34,25 @@ export const LinkItem = styled(Link)`
   align-items: center;
   font-size: 16px;
   font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 8px;
   transition: all 0.5s ease;
+  padding: 8px;
 
   &:hover {
     color: ${(props) => props.theme.contrastColor};
-    text-decoration: underline;
+    border: 1px solid ${(props) => props.theme.contrastColor};
+    border-radius: 8px;
     transition: all 0.5s ease;
   }
 
   svg {
     fill: currentColor;
+  }
+
+  &.active {
+    color: ${(props) => props.theme.contrastColor};
+    border: 1px solid ${(props) => props.theme.contrastColor};
+    border-radius: 8px;
   }
 `
