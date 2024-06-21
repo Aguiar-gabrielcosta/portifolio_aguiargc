@@ -3,10 +3,16 @@ import Button from '../../components/Button'
 import * as S from './styles'
 import { useEffect, useState } from 'react'
 
+type Technology = {
+  tech: string
+  icon: string
+}
+
 type ProfileData = {
   name: string
   subtitle: string
   description: string
+  technologies: Technology[]
 }
 
 const Home = () => {
@@ -14,7 +20,8 @@ const Home = () => {
   const [profile, setProfile] = useState<ProfileData>({
     name: '',
     subtitle: '',
-    description: ''
+    description: '',
+    technologies: []
   })
 
   useEffect(() => {
@@ -31,6 +38,15 @@ const Home = () => {
           <S.Name>{profile.name}</S.Name>
           <S.Subtitle>{profile.subtitle}</S.Subtitle>
           <S.Description>{profile.description}</S.Description>
+          <S.TechList>
+            {profile.technologies.map((technology) => {
+              return (
+                <li key={technology.tech}>
+                  <img src={technology.icon} alt={technology.tech} />
+                </li>
+              )
+            })}
+          </S.TechList>
           <Button
             title="Clique para acessar a seção 'Sobre mim'"
             type="button"

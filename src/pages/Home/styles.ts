@@ -39,6 +39,16 @@ export const Description = styled.p`
   font-size: 1rem;
   font-weight: normal;
   color: ${(props) => props.theme.terciaryColor};
-  margin: 16px 0 40px 0;
+  margin: 16px 0 16px 0;
   max-width: 540px;
+`
+
+export const TechList = styled.ul`
+  display: flex;
+  margin: 16px 0 40px 0;
+  gap: 8px;
+
+  li > img {
+    height: 32px;
+  }
 `
