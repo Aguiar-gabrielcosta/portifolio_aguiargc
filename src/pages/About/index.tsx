@@ -1,5 +1,11 @@
+import Section from '../../components/Section'
+
 const About = () => {
-  return <div className="container">Em desenvolvimento</div>
+  return (
+    <Section title="Sobre mim">
+      <p>Lorem....</p>
+    </Section>
+  )
 }
 
 export default About
