@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
 export const SectionContainer = styled.section`
-  margin: 32px auto;
-
   .content {
     max-width: 90%;
     width: 100%;
-    margin: 0 auto;
+    margin: 32px auto;
   }
 
   h1 {
@@ -16,4 +14,16 @@ export const SectionContainer = styled.section`
     color: ${(props) => props.theme.contrastColor};
     margin-bottom: 32px;
   }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  animation: 1.5s ease-in-out fadein;
 `
