@@ -5,19 +5,19 @@
   "technologies": [
     {
       "tech": "HTML5",
-      "icon": "./data/icons/html5.svg"
+      "icon": "./icons/html5.svg"
     },
     {
       "tech": "CCS3",
-      "icon": "./data/icons/css3.svg"
+      "icon": "./icons/css3.svg"
     },
     {
       "tech": "TypeScript",
-      "icon": "./data/icons/typescript.svg"
+      "icon": "./icons/typescript.svg"
     },
     {
       "tech": "React.js",
-      "icon": "./data/icons/react.svg"
+      "icon": "./icons/react.svg"
     }
   ]
 }
