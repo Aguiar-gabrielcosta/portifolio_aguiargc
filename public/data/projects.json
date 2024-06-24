@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "projectName": "Projeto Exemplo 1",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "React",
+        "TypeScript"
+      ],
+      "description": " Ultricies mi quis hendrerit dolor magna. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Ultrices tincidunt arcu non sodales neque sodales. Ante metus dictum at tempor commodo ullamcorper a.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    },
+    {
+      "projectName": "Projeto Exemplo 2",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "VueJS",
+        "JavaScript"
+      ],
+      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    },
+    {
+      "projectName": "Projeto Exemplo 3",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "Em andamento",
+        "Docker"
+      ],
+      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    },
+    {
+      "projectName": "Projeto Exemplo 4",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    },
+    {
+      "projectName": "Projeto Exemplo 6",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "React",
+        "JavaScript"
+      ],
+      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    }
+  ]
+}

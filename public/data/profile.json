@@ -1,7 +1,7 @@
 {
   "name": "Gabriel Aguiar",
   "subtitle": "Desenvolvedor Front-end",
-  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "description": "Urna cursus eget nunc scelerisque. Bibendum est ultricies integer quis. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Amet nisl suscipit adipiscing bibendum est.",
   "technologies": [
     {
       "tech": "HTML5",
@@ -19,5 +19,6 @@
       "tech": "React.js",
       "icon": "./icons/react.svg"
     }
-  ]
+  ],
+  "photo": "./images/foto-gabrielaguiar.jpg"
 }

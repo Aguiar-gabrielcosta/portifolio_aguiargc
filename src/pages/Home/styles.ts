@@ -13,6 +13,7 @@ export const HomeContainer = styled.div`
 `
 
 export const Content = styled.div`
+  position: relative;
   width: 80%;
 `
 
@@ -50,5 +51,19 @@ export const TechList = styled.ul`
 
   li > img {
     height: 32px;
+  }
+`
+
+export const PerfilPhoto = styled.div`
+  position: absolute;
+  right: 16px;
+  top: 0px;
+
+  img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid ${(props) => props.theme.contrastColor};
   }
 `

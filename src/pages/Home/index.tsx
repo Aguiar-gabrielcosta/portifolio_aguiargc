@@ -3,16 +3,17 @@ import Button from '../../components/Button'
 import * as S from './styles'
 import { useEffect, useState } from 'react'
 
-type Technology = {
+export type Technology = {
   tech: string
   icon: string
 }
 
-type ProfileData = {
+export type ProfileData = {
   name: string
   subtitle: string
   description: string
   technologies: Technology[]
+  photo: string
 }
 
 const Home = () => {
@@ -21,7 +22,8 @@ const Home = () => {
     name: '',
     subtitle: '',
     description: '',
-    technologies: []
+    technologies: [],
+    photo: ''
   })
 
   useEffect(() => {
@@ -34,6 +36,9 @@ const Home = () => {
     <S.HomeContainer>
       <div className="container">
         <S.Content>
+          <S.PerfilPhoto>
+            <img src={profile.photo} alt={`Foto de ${profile.name}`} />
+          </S.PerfilPhoto>
           <S.Salutation>Bem-vindo, meu nome é</S.Salutation>
           <S.Name>{profile.name}</S.Name>
           <S.Subtitle>{profile.subtitle}</S.Subtitle>

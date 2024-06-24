@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 type Props = {
-  children: string
+  children: string | JSX.Element
   onClick?: () => void
   title: string
   type: 'link' | 'button'
