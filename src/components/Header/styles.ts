@@ -36,8 +36,8 @@ export const LinkItem = styled(Link)`
   font-weight: bold;
   border: 1px solid transparent;
   border-radius: 8px;
-  transition: all 0.5s ease;
   padding: 8px;
+  transition: all 0.5s ease;
 
   &:hover {
     color: ${(props) => props.theme.contrastColor};

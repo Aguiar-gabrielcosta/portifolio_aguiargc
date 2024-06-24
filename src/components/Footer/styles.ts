@@ -20,16 +20,20 @@ export const FooterContainer = styled.footer`
       height: 30px;
       width: 30px;
       fill: ${(props) => props.theme.quaternaryColor};
+      transition: all 0.5s ease;
 
       path {
         fill: ${(props) => props.theme.quaternaryColor};
+        transition: all 0.5s ease;
       }
 
       &:hover {
         fill: ${(props) => props.theme.contrastColor};
+        transition: all 0.5s ease;
 
         path {
           fill: ${(props) => props.theme.contrastColor};
+          transition: all 0.5s ease;
         }
       }
     }
