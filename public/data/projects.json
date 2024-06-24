@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "projectName": "Projeto Exemplo",
+      "image": "https://placehold.co/1920x1080",
+      "tags": [
+        "React",
+        "TypeScript"
+      ],
+      "description": "É um projeto sobre usar React e TypeScript para fazer um exemplo de aplicação web, utilziando também React Router DOM e outras tecnologias como Bootstrap.",
+      "deployLink": "http://localhost:5173/projects",
+      "repoLink": "http://localhost:5173/projects"
+    }
+  ]
+}
