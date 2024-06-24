@@ -30,7 +30,7 @@ const ProjectCard = ({
         <p>{description}</p>
         <S.Links>
           <a href={deployLink} target="_blank" rel="noreferrer">
-            Visite
+            Visite o projeto
           </a>
           <a href={repoLink} target="_blank" rel="noreferrer">
             Repositório

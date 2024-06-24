@@ -36,6 +36,9 @@ const Home = () => {
     <S.HomeContainer>
       <div className="container">
         <S.Content>
+          <S.PerfilPhoto>
+            <img src={profile.photo} alt={`Foto de ${profile.name}`} />
+          </S.PerfilPhoto>
           <S.Salutation>Bem-vindo, meu nome é</S.Salutation>
           <S.Name>{profile.name}</S.Name>
           <S.Subtitle>{profile.subtitle}</S.Subtitle>

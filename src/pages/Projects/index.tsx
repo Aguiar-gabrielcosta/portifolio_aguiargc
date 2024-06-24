@@ -43,46 +43,6 @@ const Projects = () => {
               repoLink={project.repoLink}
             />
           ))}
-          <ProjectCard
-            image="https://placehold.co/300x300"
-            projectName="Nome do Projeto"
-            tags={['Tag 1', 'Tag 2']}
-            description="lorem lorem lorem sfasfasfsfas sfa sadfasdfasfsafsa sfd asf asfdfasf sadfasf safaf"
-            deployLink="#"
-            repoLink="#"
-          />
-          <ProjectCard
-            image="https://placehold.co/300x300"
-            projectName="Nome do Projeto"
-            tags={['Tag 1', 'Tag 2']}
-            description="lorem lorem lorem sfasfasfsfas sfa sadfasdfasfsafsa sfd asf asfdfasf sadfasf safaf sdgsagasgsagasg gasgasg gagdsg asdgasdg asdgsagagagasdgsagsag asdgsa asgdasg sg sg sg asg sgagagasgsd gsgsgasg asgasdgas gsagsag ag"
-            deployLink="#"
-            repoLink="#"
-          />
-          <ProjectCard
-            image="https://placehold.co/300x300"
-            projectName="Nome do Projeto"
-            tags={['Tag 1', 'Tag 2']}
-            description="lorem lorem lorem sfasfasfsfas sfa sadfasdfasfsafsa sfd asf asfdfasf sadfasf safaf"
-            deployLink="#"
-            repoLink="#"
-          />
-          <ProjectCard
-            image="https://placehold.co/300x300"
-            projectName="Nome do Projeto"
-            tags={['Tag 1', 'Tag 2']}
-            description="lorem lorem lorem sfasfasfsfas sfa sadfasdfasfsafsa sfd asf asfdfasf sadfasf safaf"
-            deployLink="#"
-            repoLink="#"
-          />
-          <ProjectCard
-            image="https://placehold.co/300x300"
-            projectName="Nome do Projeto"
-            tags={['Tag 1', 'Tag 2']}
-            description="lorem lorem lorem sfasfasfsfas sfa sadfasdfasfsafsa sfd asf asfdfasf sadfasf safaf sdgsagasgsagasg gasgasg gagdsg asdgasdg asdgsagagagasdgsagsag asdgsa asgdasg sg sg sg asg sgagagasgsd gsgsgasg asgasdgas gsagsag ag"
-            deployLink="#"
-            repoLink="#"
-          />
         </S.ProjectsContainer>
         <S.ButtonContainer>
           <Button
