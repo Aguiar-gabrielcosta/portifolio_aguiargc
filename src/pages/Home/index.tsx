@@ -3,16 +3,17 @@ import Button from '../../components/Button'
 import * as S from './styles'
 import { useEffect, useState } from 'react'
 
-type Technology = {
+export type Technology = {
   tech: string
   icon: string
 }
 
-type ProfileData = {
+export type ProfileData = {
   name: string
   subtitle: string
   description: string
   technologies: Technology[]
+  photo: string
 }
 
 const Home = () => {
@@ -21,7 +22,8 @@ const Home = () => {
     name: '',
     subtitle: '',
     description: '',
-    technologies: []
+    technologies: [],
+    photo: ''
   })
 
   useEffect(() => {
