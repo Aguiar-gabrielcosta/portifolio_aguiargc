@@ -10,6 +10,7 @@ import CV from '/documents/CV_GabrielCosta.pdf'
 const Header = () => {
   const [route, setRoute] = useState('/')
   const location = useLocation()
+  const [openMenu, setOpenMenu] = useState(false)
 
   useEffect(() => {
     setRoute(location.pathname)
@@ -18,11 +19,44 @@ const Header = () => {
   return (
     <S.HeaderContainer>
       <div className="container">
-        <Link to={'/'} title="Clique e retorne à página inicial">
-          <h1>👨🏻‍💻 Dev. Gabriel Aguiar</h1>
-        </Link>
+        <S.Heading>
+          <Link to={'/'} title="Clique e retorne à página inicial">
+            <h1>👨🏻‍💻 Dev. Gabriel Aguiar</h1>
+          </Link>
+          <span
+            className="responsive-menu"
+            onClick={() => (openMenu ? setOpenMenu(false) : setOpenMenu(true))}
+          >
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 7L4 7"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+              />
+              <path
+                d="M20 12L4 12"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+              />
+              <path
+                d="M20 17L4 17"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+              />
+            </svg>
+          </span>
+        </S.Heading>
         <S.NavBar>
-          <ul>
+          <ul className={openMenu ? 'isOpen' : ''}>
             <li>
               <S.LinkItem
                 to={'/about'}
