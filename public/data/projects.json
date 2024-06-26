@@ -1,60 +1,50 @@
 {
   "projects": [
     {
-      "projectName": "Projeto Exemplo 1",
-      "image": "https://placehold.co/1920x1080",
+      "projectName": "Aplicação web 'eFood'",
+      "image": "./images/efood.png",
       "tags": [
         "React",
         "TypeScript"
       ],
-      "description": " Ultricies mi quis hendrerit dolor magna. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Ultrices tincidunt arcu non sodales neque sodales. Ante metus dictum at tempor commodo ullamcorper a.",
-      "deployLink": "http://localhost:5173/projects",
-      "repoLink": "http://localhost:5173/projects"
+      "description": "Aplicação web de alimentação desenvolvida com React.js e TypeScript e as bibliotecas de roteamento React Router DOM, estilização Styled Componentes, controle e validação de formulários com Formik e Yup e gerenciamento de estados com Redux.",
+      "deployLink": "https://efood-dun-seven.vercel.app/",
+      "repoLink": "https://github.com/Aguiar-gabrielcosta/efood"
     },
     {
-      "projectName": "Projeto Exemplo 2",
-      "image": "https://placehold.co/1920x1080",
+      "projectName": "Space Game Bar",
+      "image": "./images/gamebar.png",
       "tags": [
-        "VueJS",
+        "HTML/CSS",
         "JavaScript"
       ],
-      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
-      "deployLink": "http://localhost:5173/projects",
-      "repoLink": "http://localhost:5173/projects"
+      "description": "Uma landing page, com tema de bar e games, desenvolvida com as tecnologias web HTML, CSS e JavaScript, e com as bibliotecas Bootstrap e JQuery.",
+      "deployLink": "https://site-game-bar.vercel.app/",
+      "repoLink": "https://github.com/Aguiar-gabrielcosta/site_game_bar"
     },
     {
-      "projectName": "Projeto Exemplo 3",
-      "image": "https://placehold.co/1920x1080",
+      "projectName": "Clone: Prime Video - Duna",
+      "image": "./images/duna.png",
       "tags": [
-        "Em andamento",
-        "Docker"
-      ],
-      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
-      "deployLink": "http://localhost:5173/projects",
-      "repoLink": "http://localhost:5173/projects"
-    },
-    {
-      "projectName": "Projeto Exemplo 4",
-      "image": "https://placehold.co/1920x1080",
-      "tags": [
-        "HTML",
-        "CSS",
+        "Gulp.js",
+        "Sass",
         "JavaScript"
       ],
-      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
-      "deployLink": "http://localhost:5173/projects",
-      "repoLink": "http://localhost:5173/projects"
+      "description": "Este projeto foi um clone da página do filme Duna na plataforma Prime Video. Neste foi utilizado JavaScript, HTML, CSS, com o pré-processador Sass, e a utilização do Gulp para automação de tarefas como minificação de imagens e do código javascript, compilação do sass e construção da aplicação.",
+      "deployLink": "https://duna-page-clone.vercel.app/",
+      "repoLink": "https://github.com/Aguiar-gabrielcosta/duna_page_clone"
     },
     {
-      "projectName": "Projeto Exemplo 6",
-      "image": "https://placehold.co/1920x1080",
+      "projectName": "Painel de registro de tempo",
+      "image": "./images/timedashboard.png",
       "tags": [
-        "React",
+        "Responsividade",
+        "Sass",
         "JavaScript"
       ],
-      "description": "Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Sed risus pretium quam vulputate dignissim suspendisse. At erat pellentesque adipiscing commodo elit at.",
-      "deployLink": "http://localhost:5173/projects",
-      "repoLink": "http://localhost:5173/projects"
+      "description": "Desafio do Site Frontend Mentor feito no ínicio dos meus estudos. O desafio era construir um dashboard de resgistro de tempo entre diferentes atividades. Neste utilizou-se de javascript, html e css, com pré-processador sass, além de precisar incluir a responsividade para dispositivos desktop e mobile.",
+      "deployLink": "https://aguiar-gabrielcosta.github.io/Time-tracking-dashboard/",
+      "repoLink": "https://github.com/Aguiar-gabrielcosta/Time-tracking-dashboard"
     }
   ]
 }

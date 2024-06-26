@@ -11,4 +11,19 @@ export const AboutContent = styled.div`
   ${ButtonContainer} {
     margin-top: 32px;
   }
+
+  .highlight {
+    color: ${(props) => props.theme.contrastColor};
+    font-weight: bold;
+  }
+`
+
+export const SkillsList = styled.ul`
+  margin-left: 16px;
+
+  li {
+    list-style: disc;
+    font-size: 1rem;
+    line-height: 22px;
+  }
 `

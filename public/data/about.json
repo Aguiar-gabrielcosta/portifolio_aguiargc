@@ -1,8 +1,18 @@
 {
   "aboutme": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis nunc sed blandit libero volutpat sed cras. Diam maecenas ultricies mi eget mauris. Sem fringilla ut morbi tincidunt augue interdum velit euismod.",
-    "Ullamcorper eget nulla facilisi etiam. Vitae semper quis lectus nulla at volutpat diam ut. Massa placerat duis ultricies lacus sed turpis tincidunt. Risus nec feugiat in fermentum posuere. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque.",
-    "Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Lectus urna duis convallis convallis tellus id. Elit scelerisque mauris pellentesque pulvinar.",
-    "Et leo duis ut diam quam nulla porttitor. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Lorem mollis aliquam ut porttitor leo a. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Urna nunc id cursus metus aliquam."
+    "Meu nome é Gabriel Aguiar da Costa. Sou formado, inicialmente, em Engenharia de materiais e hoje estou em transição de carreira para o Desenvolvimento Web. Minha força motriz é a resolução de problemas e a satisfação de facilitar a vida dos usuários, e encontrei no desenvolvimento web uma forma de entregar essas soluções.",
+    "Meu primeiro contato com a programação foi durante o início da graduação, primeiramente como uma forma de resolver problemas acadêmicos e aplicados à engenharia. Também uma forma de desenvolver o raciocíno lógico e aplica-lo com a lógica de programação. Desde então, utilizar desta via para resolver problemas sempre foi satisfatório, inclusive sendo a alternativa escolhida para desenvolver o trabalho final de graduação.",
+    "Após formado busquei me aprofundar na área de tecnologia, aprendendo inicialmente por conta e depois dando início à minha pós-graduação em Desenvolvimento Full Stack, como forma de aprofundar o conhecimento em volta da criação de aplicações web e entender seu contexto geral, desde o design, metodologias de trabalho, implementações de interfaces no front-end, serviços no back-end, bancos de dados, segurança, testes, entre outros assuntos.",
+    "Meu gosto pelo front-end apareceu ao entender a sua importância e o impacto desta especialidade na vida do usuário, soluções responsivas, intuitivas e acessíveis garantem maior acesso e facilidade de uso à tecnologia. Visando me aprofundar, fiz o curso profissionalizante de Densenvolvedor Front-end pela EBAC. Neste pude me aprofundar na área e aprender melhor tecnologias importantes para profissionais do ramo.",
+    "Hoje, recém-formado pela EBAC e finalizando a pós-graduação, tenho o objetivo de me aprimorar cada vez mais como Desenvolvedor Front-end e crescer na área junto a pessoas igualmente motivadas, dominando melhor as ferramentas que conheço e aprendendo novas, e colaborar junto a designers e outros programadores para entregar soluções mais acessíveis e intuitivas."
+  ],
+  "skills": [
+    "Resolução de problemas",
+    "Proativiade e aprendizado contínuo",
+    "Tecnologias de desenvolvimento web (HTML, CSS, TypeScript e React.js)",
+    "Versionamento de código (Git)",
+    "Automação de tarefas (Gulp.js, Grunt.js, Parcel)",
+    "Consumo de APIs Rest",
+    "Testes automatizados (Jest e Cypress)"
   ]
 }
